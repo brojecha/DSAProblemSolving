@@ -1,0 +1,19 @@
+package com.technostack.week2;
+
+import java.util.Scanner;
+
+public class ReverseNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int reverse = 0, rem = 0;
+        while (n > 0) {
+            // inside while we can also do (n != 0)
+            rem = n % 10;
+            reverse = reverse * 10 + rem;
+            //reverse = (reverse*10)+ (n % 10)
+            n /= 10;
+        }
+        System.out.println(reverse);
+    }
+}
