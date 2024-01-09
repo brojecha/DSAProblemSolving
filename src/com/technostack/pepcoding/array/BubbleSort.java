@@ -12,7 +12,7 @@ public class BubbleSort {
         // then for the remaining pass we do not have to compare that element, as it is in the correct
         // position and is already sorted.
 
-        int[] myArray = {34,89,6,12,90};
+        int[] myArray = {34,89,6,12,90,12,5,-6};
         bubbleSortImplementation(myArray);
         printArray(myArray);
     }
