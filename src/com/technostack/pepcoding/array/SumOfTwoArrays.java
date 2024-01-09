@@ -12,11 +12,13 @@ public class SumOfTwoArrays {
             a1[i] = scanner.nextInt();
         }
 
+
         int n2 = scanner.nextInt();
         int[] a2 = new int[n2];
         for (int i = 0; i < n2; i++) {
             a2[i] = scanner.nextInt();
         }
+
 
         int[] ans = sumOfTwoArrays(a1, a2);
 
@@ -49,6 +51,7 @@ public class SumOfTwoArrays {
             i--;
             j--;
             k--;
+
         }
 
         return ans;
