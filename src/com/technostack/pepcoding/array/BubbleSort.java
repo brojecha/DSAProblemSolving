@@ -2,6 +2,16 @@ package com.technostack.pepcoding.array;
 
 public class BubbleSort {
     public static void main(String[] args) {
+        //Unsorted Array
+        // Steps
+
+        //1.Let assume arr[0] element is a bubble element.
+        //2.Compare the bubble element with the adjacent element, if found greater element then swap the element.
+        //3. The total no of swaps or steps to sort the element will be [array.length -1]
+        //4.If the largest element is at its correct position [RIGHT MOST POSITION],
+        // then for the remaining pass we do not have to compare that element, as it is in the correct
+        // position and is already sorted.
+
         int[] myArray = {34,89,6,12,90};
         bubbleSortImplementation(myArray);
         printArray(myArray);
