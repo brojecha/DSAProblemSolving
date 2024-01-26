@@ -2,7 +2,7 @@ package com.technostack.week4;
 
 public class LargestElementInAnArray_UsingForLoop {
     public static void main(String[] args) {
-        int[] array = {1};
+        int[] array = {12,4,5,990,1000};
        int val =  largestElementInArrayUsingForLoop(array);
         System.out.print("Largest Value using for Loop"+" "+val);
     }
