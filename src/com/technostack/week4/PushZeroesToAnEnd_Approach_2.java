@@ -1,10 +1,8 @@
 package com.technostack.week4;
 
-import java.util.Arrays;
-
-public class PushZeroesToAnEndApproach_2 {
+public class PushZeroesToAnEnd_Approach_2 {
     public static void main(String[] args) {
-        int[] array = {4,5,0,1,0};
+        int[] array = {4,5,0,1,0,56,8,0,90};
         pushZeroesToAnEndImplementation_Approach2(array);
     }
 
